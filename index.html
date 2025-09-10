@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://img.icons8.com/?size=100&id=13026&format=png&color=000000" type="image/x-icon">
      <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
@@ -19,6 +20,7 @@
       <div class="flex flex-wrap gap-3 items-center">
         <label class="sr-only" for="search">Buscar estado o ciudad</label>
         <input id="search" type="search" placeholder="Buscar estado o ciudad…" class="w-64 max-w-[70vw] rounded-xl border px-3 py-2 outline-none focus:ring focus:ring-sky-200" />
+        <button id="btnBuscar">Buscar</button>
         <select id="filterZone" class="rounded-xl border px-3 py-2">
           <option value="">Todas las zonas</option>
           <option value="America/Tijuana">Noroeste (UTC−08:00) — Baja California</option>
@@ -38,6 +40,7 @@
   </header>
 <div id="tiemposs">
     <p>Hora actual</p>
+    <img src="https://img.icons8.com/?size=80&id=16241&format=png&color=000000" alt="tiempo">
     <h1 id="tiempos"></h1>
 </div>
   <main class="mx-auto max-w-7xl px-4 py-6">
@@ -63,5 +66,6 @@
   </footer>
 
   <script src="script/script.js"></script> 
+  <script src="app.js"></script>
 </body>
 </html>
